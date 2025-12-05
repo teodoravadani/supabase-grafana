@@ -2,7 +2,7 @@ services:
   supabase-grafana:
     build: ./
     ports:
-      - 9000:3000
+      - 9020:3020
     environment:
       SUPABASE_ACCESS_TOKEN: ${SUPABASE_ACCESS_TOKEN}
       SUPABASE_ORGANIZATION_ID: ${SUPABASE_ORGANIZATION_ID}
